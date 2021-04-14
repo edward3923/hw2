@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Moderna Vaccine</title>
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <!-- Title -->
+        <h1 class="text-center m-8 capitalize font-bold text-3xl text-purple-900">Moderna Vaccine Info Page</h1>
+        <!-- Start of flex items -->
+        <div class="px-16 md:flex items-center">
+
+            <!-- First item in flex -->
+            <div class="md:w-1/2 m-auto md:p-16">
+                <img class="border w-2/3 rounded-md" src="moderna.jpeg">
+            </div>
+
+            <!-- Second item in flex -->
+            <div class="md:w-1/2 m-auto md:p-16">
+                <h2 class="text-xl font-bold text-red-600">
+                    <p>You will need to take 2 shots of the Moderna vaccine 3-4 weeks apart.</p>
+                </h2>
+            </div>
+        </div>
+
+        <!-- Form section -->
+        <div class="m-8">
+            <h1 class="text-3xl font-bold text-center text-pink-500">Sign up here to get information when the vaccine is available</h1>
+
+            <!-- Start of the form -->
+            <form netlify class="mx-auto mt-8 w-64">
+                <label class="block mt-4 font-bold text-center" for="name">What is your name?</label>
+                <input class="p-2 w-64 border border-gray-500 rounded shadow-xl focus:outline-none focus:ring-purple-800 focus:border-purple-500" type="text" id="name" name="name">
+        
+                <label class="block mt-4 font-bold text-center" for="emailAddress">What is your email address?</label>
+                <input class="p-2 w-64 border border-gray-500 rounded shadow-xl focus:outline-none focus:ring-purple-800 focus:border-purple-500" type="text" id="emailAddress" name="emailAddress">
+        
+                <label class="block mt-4 font-bold text-center" for="phoneNumber">What is your phone number?</label>
+                <input class="p-2 w-64 border border-gray-500 rounded shadow-xl focus:outline-none focus:ring-purple-800 focus:border-purple-500" type="text" id="phoneNumber" name="phoneNumber">
+
+                <button class="block mt-4 text-white bg-purple-500 rounded px-4 py-2 text-center">Submit form!</button>
+            </form>
+
+        </div>
+
+        <div class="m-8">
+            <p>Click <a href="index.html" class="text-blue-600">here</a> to return to the main page.</p>
+        </div>
+    </body>
+</html>
